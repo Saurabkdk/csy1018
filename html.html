@@ -6,7 +6,7 @@
 <body>
 	<main>
 		<!-- <h1> this is only to demostrate that I know how to commentin</h1> -->
-		<H2>This is the first html document in github.</H2>
+		<center><header id="top"><H2>This is the first html document in github.</H2></header></center>
 
 		<a href="#end">Go down to the end</a>
 
@@ -21,11 +21,38 @@
 
 		<a href="https://www.google.com/search?q=football&sxsrf=ALeKk03xx3CtpQZ8V2sB8ttOzlN5D5Oe7w:1616826934808&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi_2vLY7c_vAhW5H7cAHfccAvcQ_AUoAXoECAEQAw&biw=1536&bih=763">More pictures related to football</a>
 
-		<p>Pictures of the <a href="https://www.google.com/search?q=football+teams&tbm=isch&ved=2ahUKEwi3vrHa7c_vAhV3sksFHWqWCZEQ2-cCegQIABAA&oq=football+teams&gs_lcp=CgNpbWcQAzICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADICCAA6BAgAEENQrNIPWMXjD2CC5g9oAHAAeACAAYIBiAHtBZIBAzAuNpgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=OdJeYPe9OPfkrtoP6qymiAk&bih=763&biw=1536#imgrc=j2EywVogH3T59M">football elites</a></p>
+		<p>Pictures of the <a href="https://www.google.com/search?q=football+teams&tbm=isch&ved=2ahUKEwi3vrHa7c_vAhV3sksFHWqWCZEQ2-cCegQIABAA&oq=football+teams&gs_lcp=CgNpbWcQAzICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADICCAA6BAgAEENQrNIPWMXjD2CC5g9oAHAAeACAAYIBiAHtBZIBAzAuNpgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=OdJeYPe9OPfkrtoP6qymiAk&bih=763&biw=1536#imgrc=j2EywVogH3T59M" target="_blank">football elites</a></p>
+
+		<form>
+			Name:<br>
+			<input type="text" name="name"><br>
+			Password:<br>
+			<input type="Password" name="pass"><br>
+			Contact:<br>
+			<input type="text" name="contact"><br>
+			Gender:<br>
+			<label for="male">
+				<input id="male" type="radio" name="gender" value="male">Male
+			</label><br>
+			<label for="female">
+				<input id="female" type="radio" name="gender" value="female">Female
+			</label><br>
+			Interests:<br>
+			<label>
+				<input type="checkbox" name="interest" value="sports">Sports
+			</label><br>
+			<label>
+				<input type="checkbox" name="interest" value="reading">Reading
+			</label><br>
+			<label>
+				<input type="checkbox" name="interest" value="songs">Songs
+			</label><br>
+			<input type="submit">Submit<br>
+		</form>
 
 	</main>
 
-	<footer id="end">You have come to the end</footer>
+	<footer id="end">You have come to the end. <a href="#top">Go to the top</a>.</footer>
 
 </body>
 </html>
