@@ -1,0 +1,73 @@
+body{
+	margin: 0;
+}
+header div:first-child{
+	background-color: blue;
+	float: left;
+	width: 50%;
+	height: 150px;
+}
+header div:nth-child(2){
+	background-color: green;
+	float: left;
+	width: 50%;
+	height: 150px;
+}
+.a{
+	clear: both;
+}
+nav{
+	background-color: red;
+}
+nav ul{
+	padding: 0px;
+	margin:5px;
+}
+nav ul li{
+	list-style: none;
+	float: left;
+	background-color: yellow;
+	margin: 5px;
+	padding: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+nav ul li a{
+	text-decoration: none;
+	display: block;
+	width: 100%;
+}
+nav ul li:hover{
+	background-color: orange;
+}
+section div:first-child{
+	background-color: blue;
+	float: left;
+	width: 30%;
+	height: 150px;
+}
+section div:nth-child(2){
+	background-color: green;
+	float: left;
+	width: 70%;
+	height: 150px;
+}
+footer{
+	background-color: yellow;
+	width: 100%;
+	padding: 50px;
+	margin-top: 5px;
+}
+p{
+	padding: 50px;
+}
+.ano{
+	background-color: red;
+	margin-top: 5px;
+}
+.ano ul{
+	background-color: red;
+}
+.ano ul li{
+	background-color: yellow;
+}
