@@ -1,0 +1,38 @@
+body{
+	margin: 0;
+}
+header{
+	width: 100%;
+	padding:50px;
+	background-color: rgb(132,168,192);
+}
+.a{
+	clear: both;
+}
+section{
+	display: flex;
+}
+section div:first-child{
+	background-color: rgb(200,163,185);
+	height: 510px;
+	width: 50%;
+}
+section div:nth-child(2){
+	background-color: rgb(185,200,163);
+	height: 510px;
+	width: 50%;
+}
+footer{
+	padding: 50px;
+	width: 100%;
+	background-color: rgb(168,132,192);
+}
+p{
+	padding: 50px;
+	padding-bottom: 20px;
+}
+img{
+	width: 300px;
+	height:300px;
+	padding-left: 225px;
+}

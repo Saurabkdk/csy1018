@@ -1,0 +1,31 @@
+body{
+	margin: 0;
+}
+header{
+	width: 100%;
+	padding:50px;
+	background-color: rgb(50,65,98);
+}
+.a{
+	clear: both;
+}
+section div:first-child{
+	float: left;
+	background-color: rgb(100,96,75);
+	height: 510px;
+	width: 50%;
+}
+section div:nth-child(2){
+	float: left;
+	background-color: rgb(75,100,96);
+	height: 510px;
+	width: 50%;
+}
+footer{
+	padding: 50px;
+	width: 100%;
+	background-color: rgb(98,65,50);
+}
+p{
+	padding: 50px;
+}
