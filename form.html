@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<form>
+		<fieldset>
+			<legend>Name</legend>
+			<input type="text" name="name" required  placeholder="Your name">
+		</fieldset>
+		<fieldset>
+			<legend>Address</legend>
+			<input type="text" name="address">
+		</fieldset>
+		<fieldset>
+			<legend>Gender</legend>
+			<label for="male">
+				<input id="male" type="radio" name="male">Male
+			</label>
+			<br>
+			<label for="female">
+				<input id="female" type="radio" name="female">Female
+			</label>
+		</fieldset>
+		<fieldset>
+			<legend>Interest</legend>
+			<label for="reading">
+				<input id="reading" type="checkbox" name="science">Reading
+			</label>
+			<br>
+			<label for="music">
+				<input id="music" type="checkbox" name="science">Music
+			</label>
+			<br>
+			<label for="sports">
+				<input id="sports" type="checkbox" name="science">Sports
+			</label>
+			<br>
+		</fieldset>
+		<fieldset>
+			<legend>Subject</legend>
+			<select name="subject">
+				<option value="science">Science</option>
+				<option value="management">Management</option>
+				<option value="humanities">Humanities</option>
+			</select>
+		</fieldset>
+		<fieldset>
+			<legend>Date</legend>
+			<input type="date" name="date" min="1991-01-01" max="2030-12-31">
+		</fieldset>
+		<fieldset>
+			<legend>Color</legend>
+			<input type="color" name="color">
+		</fieldset>
+		<fieldset>
+			<legend>Number</legend>
+			<input type="number" name="number" min="0" max="100">
+		</fieldset>
+		<fieldset>
+			<legend>Log in</legend>
+			Email:
+			<input type="email" name="email">
+			<br>
+			Password:
+			<input type="password" name="pass">
+		</fieldset>
+		<fieldset>
+			<legend>Opinion</legend>
+			<textarea name="opinion" rows="10" cols="201"></textarea>
+		</fieldset>
+		<br>
+		<button type="submit">Submit</button>
+	</form>
+</body>
+</html>
